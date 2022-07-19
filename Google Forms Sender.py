@@ -5,7 +5,7 @@ send = 0
 urlResponse = DocsURL+"/formResponse"
 urlReferer = DocsURL+"/viewform"
 requestsValue = int(input("Укажите количество анкет, которых нужно заполнить: "))
-if requestsValue >= 400:
+if requestsValue > 400:
     print("Ошибка. Такое количество анкет нельзя указать (могут быть ограничения от Google)")
 else:
     print("OK.")
